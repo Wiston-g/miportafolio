@@ -1,0 +1,134 @@
+
+.inicio{
+    background-color: #2C3E50 ;
+    height: auto;
+    padding-bottom:5rem ;
+}
+
+#bg-color{
+    background-color: #2C3E50 ;
+}
+
+#color-letra{
+    color: #18464c;
+}
+.iconow{
+    
+    font-size: 30px;
+    padding: 1rem;
+}
+.w{
+    color: #00e7b6;
+    
+}
+.barra{
+    margin-top: 1rem;
+    padding-left: 10rem;
+    
+}
+
+h1{
+    color: #00e7b6;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: #00e7b6;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    color: white;
+}
+
+.margen{
+    margin-top: 8%;
+}
+
+.border{
+    width: 250px;
+    height: 250px;
+    border: 20px solid #00e7b6!important;
+    border-radius: 50%;
+}
+.foto{
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.texto{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}    
+.seccionDos{ 
+    z-index:1;
+
+}
+.card-hover:hover{
+    transform: scale(1.1) ;
+}
+.dos{
+    width: 100%;
+    height: 1%;
+    z-index:1;
+}
+
+.textosuperpuesto{
+    font-size:3m;
+}
+
+
+
+.textoSuperPuestoDos{
+    color:#2C3E50;
+    font-size:1.3em;
+    
+}
+
+.lista > li{
+    font-size: 1.1em;
+    list-style:none;
+}
+
+.seccionTres{
+    width: auto;
+    background-color: #00e7b6;
+}
+
+.tituloTres{
+    padding-top: 20px;
+    color: #2C3E50;
+    font-size: 2rem;
+}
+.tamanio{
+    width: auto;
+}
+.botones{
+    background-color: #2C3E50;
+}
+footer{
+    margin: 0%;
+    background-color: #2C3E50;
+    padding-bottom: 20px;
+}
+.iconos{
+    width: 40px;
+    margin: 4%;
+}
+.boton-icono:hover{
+    background-color: #00e7b6;
+}
+
+.boton-icono{
+    background-color: #2C3E50;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.copy{
+    color:white;
+    font-size: 0.8rem;
+}
