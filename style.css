@@ -123,12 +123,12 @@ footer{
 }
 
 .boton-icono{
-    background-color: #2C3E50;
+    background-color: white;
     padding: 5px;
     border-radius: 50%;
 }
 
 .copy{
-    color:white;
+    color:rgb(255, 255, 255);
     font-size: 0.8rem;
 }
