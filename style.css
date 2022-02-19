@@ -132,3 +132,17 @@ footer{
     color:rgb(255, 255, 255);
     font-size: 0.8rem;
 }
+.button-top{
+    border-radius: 20px;
+    width: 180px;
+    background-color: white;
+}
+.button-top>a{
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+}
+
+.button-top:hover{
+    background-color: #00e7b6;
+}
