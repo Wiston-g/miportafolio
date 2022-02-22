@@ -4,63 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/Letter-W-icon_34794.png">
     <title>Wiston-g</title>
+
+     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    
 </head>
 <body>
-    <header class="inicio" id="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark  bg-color">
-                <div class="container-fluid">
-                <a class="navbar-brand iconow" href="#" >[<span class="w">W</span>]</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav barra ">
-                        <a class="nav-link active" aria-current="page" href="#quienSoy">Who am I?</a>
-                        <a class="nav-link" href="#proyectos">Projects</a>
-                        <a class="nav-link" href="#contacto">Can you find me</a>
-                        <a class="nav-link" href="img/WISTON JAIR GONZÁLEZ GÓMEZ  (4).pdf" download="CV Wiston" target="_blank">Download CV</a>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Language
-                            </a>
-                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item " href="view/spanish/index.html">Spanish</a></li>
-                            <li><a class="dropdown-item " href="#">English</a></li>
-                            </ul>
-                        </li>
+    <section>
+        <header class="inicio blue-grey darken-3" id="header">
+            <div class="container blue-grey darken-3">
+                <div class="col s4">
+                <nav>                    
+                    <div class="nav-wrapper s10 blue-grey darken-3">
+                        <a class=" iconow" href="#" >[<span class="w">W</span>]</a>
+                        <a href="#" data-target="menu-responsive" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#quienSoy">Who am I?</a></li>
+                            <li><a href="#proyectos">Projects</a></li>
+                            <li><a href="#contacto">Can you find me</a></li>
+                            <li><a href="img/WISTON JAIR GONZÁLEZ GÓMEZ  (4).pdf" download="CV Wiston" target="_blank">Download CV</a></li>
+                            <!-- Dropdown Trigger -->
+                            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Language<i class="material-icons right">arrow_drop_down</i></a></li>
+                        </ul>
                     </div>
-                </div>
-                </div>
-            </nav>
-        </div>   
-        <div class="container-xl margen">
-            <div class="row ">
-                <div class="col-sm-8 .col-lg-10 mt-5">
-                <span>Hello! My name is:</span>
-                <h1> WISTON  GONZALÉZ</h1>
-                <p class="texto">I build:<span id="animacion"></span></p>
-                </div>
-                <div class="col-4 .col-lg-1">
-                    <div class="border">
-                        <img class="foto" src="img/foto.jpg" alt="foto de wiston">
-                    </div>
-                </div>
+                </nav>  
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="view/spanish/index.html">Spanish</a></li>
+                    <li><a href="#">English</a></li>  
+                </ul>
+                <ul class="sidenav" id="menu-responsive">
+                    <li><a href="#quienSoy">Who am I?</a></li>
+                    <li><a href="#proyectos">Projects</a></li>
+                    <li><a href="#contacto">Can you find me</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Language<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+                </div>  
             </div>
-        </div>
-    </header>
 
-    <section class="seccionDos" id="quienSoy">  
+            <div class="container ">
+                <div class="row">
+                    <div class="col s12 m7 l8 margin-text">
+                    <span class="texto">Hello! My name is:</span>
+                    <h1> WISTON  GONZALÉZ</h1>
+                    <p class="texto">I build:<span id="animacion"></span></p>
+                    </div>
+                    <div class="col s12 m5 l4">
+                        <div class="border margin-photo">
+                            <img class="foto center aling" src="img/foto.jpg" alt="foto de wiston">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </header>
+    </section>
+
+    <section id="quienSoy">  
         <div class="container">
-            <div class="row align-items-center justify-content-center ">
-                <div class="col-sm-4 text-center">
-                    <h2 class="textosuperpuesto mt-5">Who am I?</h2>
-                    <p class= "col-sm-12 text-center textoSuperPuestoDos ">I am Wiston, I have 1 year of experience as a frontend, and 6 months as a backend, I am passionate about technology, the tools I use are: </p>
-                    <ul class="lista">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="col s12 center aling textosuperpuesto ">Who am I?</h2>
+                    <p class= "col s12 center aling textoSuperPuestoDos ">I am Wiston, I have 1 year of experience as a frontend, and 6 months as a backend, I am passionate about technology, the tools I use are: </p>
+                    <ul class="col s12 center aling lista">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JAVASCRIPT</li>
@@ -73,72 +84,100 @@
         </div>          
     </section>
 
-    <section class="seccionTres" id="proyectos">
+    <section class="sectionThree" id="proyectos">
         <div class="container">
-            <h2 class="row align-items-center justify-content-center  mt-5 tituloTres">My projects</h2>
-            <div class="row align-items-center justify-content-center ">
-                <div class="col-12 col-md-4 col-sm-12 m-3">
-                    <div class="card card-hover" style="width: 18rem;">
-                        <img src="img/pezmath.PNG" class="card-img-top tamanio" alt="juego pezmath">
-                        <div class="card-body">
-                        <h5 class="card-title">PEZMATH</h5>
-                        <p class="card-text">Game to practice basic mathematical operations for children.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.wiston.pezmath" class="btn btn-primary botones" target="_blank">go to playstore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-sm-12 m-3">
-                    <div class="card card-hover" style="width: 18rem;">
-                        <img src="img/rancherys.PNG" class="card-img-top tamanio" alt="CARTA O MENU DE RANCHERYS">
-                        <div class="card-body">
-                        <h5 class="card-title">MENU RANCHERYS</h5>
-                        <p class="card-text">Menu of "RANCHERYS" restaurant products to reach more people.</p>
-                        <a href="https://wiston-g.github.io/CartaRancherys/" class="btn btn-primary botones" target="_blank">Visit website</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-md-4 col-sm-12 m-3">
-                    <div class="card card-hover" style="width: 18rem;">
-                        <img src="img/juego memoria.PNG" class="card-img-top tamanio" alt="JUEGO MEMORIA">
-                        <div class="card-body">
-                        <h5 class="card-title">MEMORY GAME</h5>
-                        <p class="card-text">Match finder memory game built in vue.js.</p>
-                        <a href="https://memoria-52b41.web.app/" class="btn btn-primary botones" target="_blank">Visit website</a>
-                        </div>
-                    </div>
-              </div>
-              <div class="col-12 col-md-4 col-sm-12 m-3">
-                    <div class="card card-hover" style="width: 18rem;">
-                        <img src="img/CRUD.PNG" class="card-img-top tamanio" alt="crud de tareas">
-                        <div class="card-body">
-                        <h5 class="card-title">CRUD OF HOMEWORK</h5>
-                        <p class="card-text">Application to save tasks to be done in the localstorage.</p>
-                        <a href="https://wiston-g.github.io/crud_localstorage/" class="btn btn-primary botones" target="_blank">Visit website</a>
-                        </div>
-                    </div>
-              </div>
-            </div>
-        </div>
+            <div class="row">
+                <h2 class="col s12 center aling tituloTres">My projects</h2>
+                <div class="col s12">
+                    <div class="carousel center aling">
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/pezmath.PNG" alt="juego pezmath">
+                                </div>
+                                <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">PEZMATH<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://play.google.com/store/apps/details?id=com.wiston.pezmath" target="_blank" class="btn-small  waves-effect waves-dark">go to playstore</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">PEZMATH<i class="material-icons right">close</i></span>
+                                <p>Game to practice basic mathematical operations for children.</p>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/rancherys.PNG" alt="CARTA O MENU DE RANCHERYS">
+                                </div>
+                                <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">MENU RANCHERYS<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://wiston-g.github.io/CartaRancherys/" target="_blank" class="btn-small  waves-effect waves-dark" >Visit website</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">MENU RANCHERYS<i class="material-icons right">close</i></span>
+                                <p>Menu of "RANCHERYS" restaurant products to reach more people.</p>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/juego memoria.PNG" alt="JUEGO MEMORIA">
+                                </div>
+                                <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">MEMORY GAME<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://memoria-52b41.web.app/" target="_blank" class="btn-small  waves-effect waves-dark" >Visit website</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">MEMORY GAME<i class="material-icons right">close</i></span>
+                                <p>Match finder memory game built in vue.js.</p>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/CRUD.PNG" alt="crud de tareas">
+                                </div>
+                                <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">CRUD<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://wiston-g.github.io/crud_localstorage" target="_blank" class="btn-small  waves-effect waves-dark">Visit website</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">CRUD OF HOMEWORK<i class="material-icons right">close</i></span>
+                                <p>Application to save tasks to be done in the localstorage.</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>          
+            </div>    
+        </div>    
     </section>
 
     <footer >
         <div class="container">
-            <h2 class="row align-items-center justify-content-center  p-5 tituloFooter" id="contacto">Can you find me</h2>
-            <div class="row align-items-center justify-content-center ">
-                <a href="https://www.facebook.com/wistonjair.gonzalez.96/" target="_blank" class="iconos"><button class="boton-icono" data-bs-toggle="tooltip" data-bs-placement="top" title="FACEBOOK"><img src="img/facebook.svg" alt="icono facebook"></button></a>
-                <a href="https://www.linkedin.com/in/jair-gonzales-12680a191/" target="_blank" class="iconos"><button class="boton-icono" data-bs-toggle="tooltip" data-bs-placement="top" title="LINKENDN"><img src="img/linkedin.svg" alt="icono linkendn"></button></a>
-                <a href="https://github.com/Wiston-g" target="_blank" class="iconos"><button class="boton-icono" data-bs-toggle="tooltip" data-bs-placement="top" title="GITHUB"><img src="img/github.svg" alt="icono correo"></button></a>
+            <h2 class="row center aling" id="contacto">Can you find me</h2>
+            <div class="row">
+                <div class="col s12 center aling">
+                    <a href="https://www.facebook.com/wistonjair.gonzalez.96/" target="_blank" class="iconos"><button class="boton-icono" data-bs-toggle="tooltip" data-bs-placement="top" title="FACEBOOK"><img src="img/facebook.svg" alt="icono facebook"></button></a>
+                    <a href="https://www.linkedin.com/in/jair-gonzales-12680a191/" target="_blank" class="iconos"><button class="boton-icono" data-bs-toggle="tooltip" data-bs-placement="top" title="LINKENDN"><img src="img/linkedin.svg" alt="icono linkendn"></button></a>
+                    <a href="https://github.com/Wiston-g" target="_blank" class="iconos"><button class="boton-icono" data-bs-toggle="tooltip" data-bs-placement="top" title="GITHUB"><img src="img/github.svg" alt="icono correo"></button></a>
+                </div>
             </div>
-            <p class="row align-items-center justify-content-center copy">Copyright © WISTON GONZALEZ</p>
-            <div class="row align-items-center justify-content-center"><button class="button-top"><a  href="#header">Back to top</a></button></div>
+            <p class="row center aling copy">Copyright © WISTON GONZALEZ</p>
+            <div class="row center aling"><button class="button-top"><a  href="#header">Back to top</a></button></div>
         </div>        
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="javascript/main.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HQQP26EBWJ"></script>
     <script>

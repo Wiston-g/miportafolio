@@ -1,12 +1,12 @@
 
 .inicio{
-    background-color: #2C3E50 ;
+   
     height: auto;
     padding-bottom:5rem ;
 }
 
 #bg-color{
-    background-color: #2C3E50 ;
+    background-color: #37474f ;
 }
 
 #color-letra{
@@ -21,18 +21,16 @@
     color: #00e7b6;
     
 }
-.barra{
-    margin-top: 1rem;
-    padding-left: 10rem;
-    
-}
 
 h1{
     color: #00e7b6;
     font-size: 3rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
 }
-
+.margin-text{
+    margin-top: 10%;
+}
 h2{
     color: #00e7b6;
     font-size: 2rem;
@@ -58,15 +56,15 @@ span{
     height: 200px;
     border-radius: 50%;
 }
-
+.margin-photo{
+    margin-top: 15%;
+}
 .texto{
+    padding-left: 20px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }    
-.seccionDos{ 
-    z-index:1;
 
-}
 .card-hover:hover{
     transform: scale(1.1) ;
 }
@@ -89,29 +87,46 @@ span{
 }
 
 .lista > li{
+    color:#2C3E50;
     font-size: 1.1em;
     list-style:none;
 }
 
-.seccionTres{
+.sectionThree{
     width: auto;
+    height: auto;
     background-color: #00e7b6;
+    padding-bottom: 30px;
+    margin: 0;
 }
 
 .tituloTres{
-    padding-top: 20px;
     color: #2C3E50;
     font-size: 2rem;
 }
-.tamanio{
-    width: auto;
-}
+
 .botones{
     background-color: #2C3E50;
 }
+.carousel .carousel-item{
+    width: 250px;
+    height: 250px;
+    user-select: none;
+    padding-bottom: 20px;
+}
+
+.carousel .indicators .indicator-item{
+    margin: -10px 20px;
+    width: 12px;
+    height: 12px;
+    background: #2C3E50;
+    border-radius: 0;
+    transform: rotate(45deg);
+}    
 footer{
-    margin: 0%;
+    margin-top: 0;
     background-color: #2C3E50;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 .iconos{
@@ -136,6 +151,7 @@ footer{
     border-radius: 20px;
     width: 180px;
     background-color: white;
+    
 }
 .button-top>a{
     text-decoration: none;
@@ -146,3 +162,4 @@ footer{
 .button-top:hover{
     background-color: #00e7b6;
 }
+
