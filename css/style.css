@@ -1,6 +1,5 @@
 
-.inicio{
-   
+.inicio{ 
     height: auto;
     padding-bottom:5rem ;
 }
@@ -12,14 +11,12 @@
 #color-letra{
     color: #18464c;
 }
-.iconow{
-    
+.iconow{ 
     font-size: 30px;
     padding: 1rem;
 }
 .w{
     color: #00e7b6;
-    
 }
 
 h1{
@@ -75,15 +72,18 @@ span{
 }
 
 .textosuperpuesto{
-    font-size:3m;
+    font-size:3em;
 }
-
-
+.title-card{
+    color:#00e7b6 !important;
+    font-size:1.1rem !important;
+    font-weight: 600;
+    user-select: none;
+}
 
 .textoSuperPuestoDos{
     color:#2C3E50;
     font-size:1.3em;
-    
 }
 
 .lista > li{
@@ -133,9 +133,6 @@ footer{
     width: 40px;
     margin: 4%;
 }
-.boton-icono:hover{
-    background-color: #00e7b6;
-}
 
 .boton-icono{
     background-color: white;
@@ -151,7 +148,6 @@ footer{
     border-radius: 20px;
     width: 180px;
     background-color: white;
-    
 }
 .button-top>a{
     text-decoration: none;

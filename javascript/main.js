@@ -3,10 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     M.AutoInit();
 });    
 
-document.addEventListener('DOMContentLoaded', function() {
-var elems = document.querySelectorAll('.sidenav');
-var instances = M.Sidenav.init(elems, options);
-});
+
   
 document.addEventListener('DOMContentLoaded', () =>{
     const elementCarousel = document.querySelectorAll('.carousel');
@@ -53,10 +50,6 @@ maquinaEscribir(servicio[0], 200, parrafo);
 
 
 
-
-
-
-    
 
 
 
